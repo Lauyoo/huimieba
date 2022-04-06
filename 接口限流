@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T03:16:50.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" version="17.1.3" etag="LJMHGl1T47fXpyodh9kE" type="github"><diagram id="vXRFspWOr68AGVpiR1_s">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-06T11:40:34.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="i_m5g29Vw3odWDM5L2Ij" version="17.4.0" type="github">
+  <diagram id="vXRFspWOr68AGVpiR1_s" name="第 1 页">
+    <mxGraphModel dx="2014" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-1" value="reqCache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-2" value="webCache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-3" value="methodCache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DVUH5cHEk1xsv7nDEtln-5" target="DVUH5cHEk1xsv7nDEtln-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-5" value="monitorFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-7" value="cacheLru&lt;br&gt;管理器" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DVUH5cHEk1xsv7nDEtln-8" target="DVUH5cHEk1xsv7nDEtln-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-8" value="monitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="20" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-12" value="解析注解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-13" value="初始化缓存监听器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-14" value="缓存请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
