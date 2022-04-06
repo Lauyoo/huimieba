@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T11:42:09.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="s0L-c-pZkE8J3dNfGl7u" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T11:55:13.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="cJhk1jOrelc7szG7318U" version="17.4.0" type="github">
   <diagram id="vXRFspWOr68AGVpiR1_s" name="第 1 页">
     <mxGraphModel dx="2014" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -48,6 +48,9 @@
         </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-15" value="&lt;b&gt;:invokeReq&lt;br&gt;入口&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-18" value="&lt;ul&gt;&lt;li&gt;基于redis缓存&lt;/li&gt;&lt;li&gt;cas控制缓存结果唯一&lt;/li&gt;&lt;li&gt;线程等待队列为1，等待队列删除机制&lt;/li&gt;&lt;li&gt;通过注解方式切入&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="290" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
