@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T11:40:34.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="i_m5g29Vw3odWDM5L2Ij" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T11:41:53.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="UiOKFLgCwnnUl4B-_bKt" version="17.4.0" type="github">
   <diagram id="vXRFspWOr68AGVpiR1_s" name="第 1 页">
     <mxGraphModel dx="2014" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -28,6 +28,9 @@
         <mxCell id="DVUH5cHEk1xsv7nDEtln-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DVUH5cHEk1xsv7nDEtln-8" target="DVUH5cHEk1xsv7nDEtln-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DVUH5cHEk1xsv7nDEtln-8" target="DVUH5cHEk1xsv7nDEtln-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-8" value="monitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="350" width="120" height="60" as="geometry" />
         </mxCell>
@@ -42,6 +45,9 @@
         </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-14" value="缓存请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-15" value="&lt;b&gt;:invokeReq&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
