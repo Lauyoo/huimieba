@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T02:12:16.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="yYC5n1q5GFoFg1-krQNq" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T02:42:26.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="9iUlmO-bVgFhvuTJprEx" version="17.4.0" type="github">
   <diagram id="vXRFspWOr68AGVpiR1_s" name="第 1 页">
     <mxGraphModel dx="1678" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -38,18 +38,18 @@
           <mxGeometry x="600" y="440" width="20" height="250" as="geometry" />
         </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-12" value="解析注解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-13" value="初始化缓存监听器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="535" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-14" value="缓存请求结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DVUH5cHEk1xsv7nDEtln-15" value="&lt;b&gt;:invokeReq&lt;br&gt;入口&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DVUH5cHEk1xsv7nDEtln-18" value="&lt;ul&gt;&lt;li&gt;基于redis缓存&lt;/li&gt;&lt;li&gt;cas控制缓存结果一致&lt;/li&gt;&lt;li&gt;线程等待队列为1，等待队列删除机制&lt;/li&gt;&lt;li&gt;通过注解方式切入&lt;/li&gt;&lt;li&gt;controller层切面&lt;/li&gt;&lt;li&gt;请求唯一性&lt;/li&gt;&lt;li&gt;只针对post方法做幂等性设置&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="DVUH5cHEk1xsv7nDEtln-18" value="&lt;ul&gt;&lt;li&gt;基于redis缓存&lt;/li&gt;&lt;li&gt;cas控制缓存结果一致&lt;/li&gt;&lt;li&gt;线程等待队列为1，等待队列删除机制&lt;/li&gt;&lt;li&gt;通过注解方式切入&lt;/li&gt;&lt;li&gt;controller层切面&lt;/li&gt;&lt;li&gt;请求唯一性&lt;/li&gt;&lt;li&gt;只针对post方法做幂等性设置&lt;/li&gt;&lt;li&gt;多节点时缓存等待队列&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="340" y="40" width="270" height="120" as="geometry" />
         </mxCell>
       </root>
