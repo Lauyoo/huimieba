@@ -1,13 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T06:59:30.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="oyIF0o3bK8tRBZ7B2331" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T08:08:29.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="Q_WthFEltPn4RLS2QM2C" version="20.4.0" type="github">
   <diagram id="g9LA6DK14ZpazoE-_L1j" name="第 1 页">
-    <mxGraphModel dx="1626" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3189" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-MSb4vBC7b3buUE4V8KC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-4" target="-MSb4vBC7b3buUE4V8KC-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-4" target="-MSb4vBC7b3buUE4V8KC-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="-MSb4vBC7b3buUE4V8KC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1.012;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-4" target="-MSb4vBC7b3buUE4V8KC-21">
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;shape=link;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-4" target="-MSb4vBC7b3buUE4V8KC-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-4" value="创建审批实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -22,11 +24,17 @@
         <mxCell id="-MSb4vBC7b3buUE4V8KC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-5" target="-MSb4vBC7b3buUE4V8KC-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;shape=link;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-5" target="-MSb4vBC7b3buUE4V8KC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-5" value="审批后台创建审批定义" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-580" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-6" value="订阅审批定义" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-420" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=170;entryDy=55;entryPerimeter=0;fontColor=#000000;shape=link;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-7" target="-MSb4vBC7b3buUE4V8KC-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-7" value="查看审批定义" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-420" y="290" width="120" height="60" as="geometry" />
@@ -35,32 +43,151 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-11" value="审批操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-13" target="-MSb4vBC7b3buUE4V8KC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;shape=link;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-13" target="-MSb4vBC7b3buUE4V8KC-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-13" value="消息接收网址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-420" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-MSb4vBC7b3buUE4V8KC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-11" target="-MSb4vBC7b3buUE4V8KC-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-260" y="230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-180" y="500" />
-              <mxPoint x="-260" y="500" />
-              <mxPoint x="-260" y="230" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-17" value="&lt;b&gt;飞书审批对接流程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="85" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-MSb4vBC7b3buUE4V8KC-17" value="&lt;b&gt;飞书审批流程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-MSb4vBC7b3buUE4V8KC-19" value="由添加应用的企业创建审批定义接口船舰成功后，无法停用/删除。&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;系统是否需要提供创建审批定义的页面？&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="360" width="100" height="130" as="geometry" />
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-19" value="由添加应用的企业创建审批定义接口创建成功后，无法停用/删除。&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;系统是否需要提供创建审批定义的页面？&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="370" width="110" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-MSb4vBC7b3buUE4V8KC-21" value="&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Tahoma, Arial, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start;&quot;&gt;第三方企业tenant_access_token，&lt;br&gt;审批定义code&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(55, 60, 67); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Tahoma, Arial, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;approval_code&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Tahoma, Arial, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="160" width="170" height="80" as="geometry" />
+          <mxGeometry x="-650" y="180" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-25" value="&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Tahoma, Arial, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start;&quot;&gt;接收消息后处理逻辑&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="550" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-31" value="用户创建的审批实例还可以根据审批定义中是否有自选节点，自行选择，是否需要前端页面？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="70" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-33" value="&lt;b&gt;企微审批对接流程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-34" target="-MSb4vBC7b3buUE4V8KC-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-34" target="-MSb4vBC7b3buUE4V8KC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-34" target="-MSb4vBC7b3buUE4V8KC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-34" value="运营商在审批模板中创建好审批模板" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-35" target="-MSb4vBC7b3buUE4V8KC-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-35" value="复制/更新模板到企业" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-36" value="获取审批模板详情" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-37" target="-MSb4vBC7b3buUE4V8KC-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-37" value="提交审批申请" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-39" target="-MSb4vBC7b3buUE4V8KC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-39" value="提交审批流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-45" target="-MSb4vBC7b3buUE4V8KC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-45" value="审批流程" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-MSb4vBC7b3buUE4V8KC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="500" as="sourcePoint" />
+            <mxPoint x="20" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;shape=link;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-51" target="-MSb4vBC7b3buUE4V8KC-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-51" value="接收审批状态回调" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-54" value="&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Tahoma, Arial, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start;&quot;&gt;接收消息后处理逻辑&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="450" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-57" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-56" target="-MSb4vBC7b3buUE4V8KC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-56" value="&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Tahoma, Arial, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start;&quot;&gt;运营商自行创建审批模板&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="210" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-58" value="&lt;b&gt;钉钉审批对接流程&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;labelBackgroundColor=none;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="660" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-59" value="创建或更新审批模板" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="335" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-60" value="创建实例" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-61" value="更新实例状态" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-64" value="审批事件" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-65" value="由添加应用的企业创建审批定义接口。&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;系统是否需要提供创建审批定义的页面？&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="335" y="440" width="115" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-68" target="-MSb4vBC7b3buUE4V8KC-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-68" value="审批操作" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-69" target="-MSb4vBC7b3buUE4V8KC-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-69" value="审批模板" style="swimlane;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="190" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-62" value="删除模板" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="-MSb4vBC7b3buUE4V8KC-69">
+          <mxGeometry x="35" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-74" target="-MSb4vBC7b3buUE4V8KC-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-74" value="审批实例" style="swimlane;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="515" y="190" width="190" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="-MSb4vBC7b3buUE4V8KC-76" target="-MSb4vBC7b3buUE4V8KC-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-76" value="待办事项" style="swimlane;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="720" y="190" width="190" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-63" value="创建待办事项" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="-MSb4vBC7b3buUE4V8KC-76">
+          <mxGeometry x="35" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-66" value="更新待办状态" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="-MSb4vBC7b3buUE4V8KC-76">
+          <mxGeometry x="35" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-67" value="取消待办" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="-MSb4vBC7b3buUE4V8KC-76">
+          <mxGeometry x="35" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MSb4vBC7b3buUE4V8KC-81" value="审批事件" style="swimlane;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="940" y="190" width="190" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
