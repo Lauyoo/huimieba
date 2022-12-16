@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T03:01:58.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="TGPXO5LEK_UHJagxNF92" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T03:12:04.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="juLen6yE-S3OtSglnhFR" version="20.6.2" type="github">
   <diagram id="UmWg-WuXR_9P3g4cXsrp" name="第 1 页">
     <mxGraphModel dx="3814" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -13,10 +13,16 @@
         <mxCell id="eq7m4WffBW-4mQ85ZLY0-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eq7m4WffBW-4mQ85ZLY0-42" target="eq7m4WffBW-4mQ85ZLY0-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jjvYWHz1ykIGh_AGoRzo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eq7m4WffBW-4mQ85ZLY0-42" target="jjvYWHz1ykIGh_AGoRzo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eq7m4WffBW-4mQ85ZLY0-42" value="匹配表头行" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-890" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eq7m4WffBW-4mQ85ZLY0-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="eq7m4WffBW-4mQ85ZLY0-44" target="eq7m4WffBW-4mQ85ZLY0-189" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jjvYWHz1ykIGh_AGoRzo-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eq7m4WffBW-4mQ85ZLY0-44" target="jjvYWHz1ykIGh_AGoRzo-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eq7m4WffBW-4mQ85ZLY0-44" value="excel列映射至类属性" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -342,6 +348,12 @@
         </mxCell>
         <mxCell id="eq7m4WffBW-4mQ85ZLY0-189" value="匹配" style="rhombus;whiteSpace=wrap;html=1;fillStyle=auto;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-890" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jjvYWHz1ykIGh_AGoRzo-1" value="解决excelColumnMapping动态生成" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jjvYWHz1ykIGh_AGoRzo-2" value="headNum智能匹配" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
