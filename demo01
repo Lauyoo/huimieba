@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T09:26:38.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="xA5pBaGt9xBuQHhnLoqJ" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T10:57:40.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="cDk0PWDXSGAq_nvi24cP" version="21.6.6" type="github">
   <diagram id="d3kPmC0CwetnCvc09YBk" name="第 1 页">
-    <mxGraphModel dx="2771" dy="3956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="3947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -543,6 +543,62 @@
         </mxCell>
         <mxCell id="iViURRwrKc2PvTjR9Olg-99" value="Hibernate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1720" y="-2470" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iViURRwrKc2PvTjR9Olg-100" target="iViURRwrKc2PvTjR9Olg-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-100" value="&lt;b&gt;Transient&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-1520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iViURRwrKc2PvTjR9Olg-102" target="iViURRwrKc2PvTjR9Olg-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iViURRwrKc2PvTjR9Olg-102" target="iViURRwrKc2PvTjR9Olg-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-102" value="&lt;b&gt;Persistent&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="-1520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-103" value="&lt;b&gt;Detached&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="-1520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-104" value="&lt;b&gt;Removed&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="-1380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-108" value="em.persist()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-1520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-109" value="tx.commit()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="-1520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-110" value="em.clear()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1530.25" y="-1500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-111" value="em.remove()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-1440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-112" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iViURRwrKc2PvTjR9Olg-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="-1370" as="sourcePoint" />
+            <mxPoint x="1310" y="-1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-113" value="em.find()&lt;br&gt;query" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="-1435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="iViURRwrKc2PvTjR9Olg-102" target="iViURRwrKc2PvTjR9Olg-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1398" y="-1580" />
+              <mxPoint x="1482" y="-1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-119" value="em.refresh()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-1580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iViURRwrKc2PvTjR9Olg-120" value="persist:将新创建的或已删除的实体转变为持久化状态，存入数据库&lt;br&gt;remove:删除持久状态的实体，实体转变为删除状态&lt;br&gt;merge:将游离实体转变为持久化状态，存入数据库&lt;br&gt;&lt;br&gt;Transient(瞬时状态):new出来的，没有OID，不在一级缓存中&lt;br&gt;Persistent(持久状态):使用em进行find()或者persist()操作，处于持久化上下文中&lt;br&gt;Detached(游离状态):对象存在于数据库中，但是不在一级缓存中&lt;br&gt;Removed(删除状态):提交事务，对象就会被从数据库中删除，此时实体对象介于持久状态和被删除之间的一个临界状态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-1750" width="460" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
