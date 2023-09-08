@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T05:44:08.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="NbqXuWhD6n4_T3z4B4vz" version="21.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-08T05:52:13.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="jhLIpOh2N9XEKDbKRp3C" version="21.7.2" type="github" pages="5">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3140" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -649,9 +649,6 @@
         <mxCell id="Q-5yvfrDcuhTpgNQq-aO-23" value="自有审批流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-6">
           <mxGeometry x="42.5" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-11" value="增量同步" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="810" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Q-5yvfrDcuhTpgNQq-aO-26" value="提交三方审批" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="507" y="910" width="60" height="30" as="geometry" />
         </mxCell>
@@ -681,6 +678,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="K-bdYimleDFYF7RpzByP-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2fbff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="560" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="K-bdYimleDFYF7RpzByP-23" value="企业快递管理SaaS" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1eaff;strokeColor=#E6E6E6;swimlaneFillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="180" width="205" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="zWosWhFm2nb1y2gxolYS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K-bdYimleDFYF7RpzByP-23" source="K-bdYimleDFYF7RpzByP-24" target="zWosWhFm2nb1y2gxolYS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-bdYimleDFYF7RpzByP-24" value="消息中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="K-bdYimleDFYF7RpzByP-23">
+          <mxGeometry x="42.5" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWosWhFm2nb1y2gxolYS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K-bdYimleDFYF7RpzByP-23" source="K-bdYimleDFYF7RpzByP-25" target="K-bdYimleDFYF7RpzByP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-bdYimleDFYF7RpzByP-25" value="业务流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="K-bdYimleDFYF7RpzByP-23">
+          <mxGeometry x="42.5" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWosWhFm2nb1y2gxolYS-3" value="if 对接三方消息通知" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1eaff;" vertex="1" parent="K-bdYimleDFYF7RpzByP-23">
+          <mxGeometry x="68.75" y="280" width="67.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K-bdYimleDFYF7RpzByP-27" value="三方系统" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1eaff;strokeColor=#E6E6E6;swimlaneFillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="180" width="205" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="K-bdYimleDFYF7RpzByP-28" value="消息通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="K-bdYimleDFYF7RpzByP-27">
+          <mxGeometry x="42.5" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K-bdYimleDFYF7RpzByP-29" value="消息推送" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zWosWhFm2nb1y2gxolYS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zWosWhFm2nb1y2gxolYS-3" target="K-bdYimleDFYF7RpzByP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
