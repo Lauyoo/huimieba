@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T02:36:01.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="wgX-BVLwiFzfHMkjsEPj" version="21.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-08T05:44:08.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="NbqXuWhD6n4_T3z4B4vz" version="21.7.2" type="github" pages="5">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3140" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -615,10 +615,64 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tzlfTqT7HC6nAYr9lg7w" name="自有审批流集成">
-    <mxGraphModel dx="1971" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1359" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2fbff;" vertex="1" parent="1">
+          <mxGeometry x="57" y="700" width="787" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-2" value="业务系统" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1eaff;strokeColor=#E6E6E6;swimlaneFillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="760" width="205" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-27" value="if 开启审批" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1eaff;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-2">
+          <mxGeometry x="60" y="155" width="84" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-39" value="if 审批通过" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1eaff;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-2">
+          <mxGeometry x="60.5" y="270" width="84" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-4" value="企业快递管理SaaS" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1eaff;strokeColor=#E6E6E6;swimlaneFillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="760" width="205" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-18" value="寄件审批" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-4">
+          <mxGeometry x="42.5" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-19" value="到付件审批" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-4">
+          <mxGeometry x="42.5" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-41" value="审批后业务流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-4">
+          <mxGeometry x="42.5" y="285" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-6" value="三方BPM系统" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1eaff;strokeColor=#E6E6E6;swimlaneFillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="760" width="205" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-23" value="自有审批流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1eaff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Q-5yvfrDcuhTpgNQq-aO-6">
+          <mxGeometry x="42.5" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-11" value="增量同步" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-26" value="提交三方审批" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q-5yvfrDcuhTpgNQq-aO-19" target="Q-5yvfrDcuhTpgNQq-aO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.056;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="Q-5yvfrDcuhTpgNQq-aO-18" target="Q-5yvfrDcuhTpgNQq-aO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q-5yvfrDcuhTpgNQq-aO-27" target="Q-5yvfrDcuhTpgNQq-aO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-37" value="审批结果推送" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Q-5yvfrDcuhTpgNQq-aO-23" target="Q-5yvfrDcuhTpgNQq-aO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-5yvfrDcuhTpgNQq-aO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q-5yvfrDcuhTpgNQq-aO-39" target="Q-5yvfrDcuhTpgNQq-aO-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
