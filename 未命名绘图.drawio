@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
   <diagram name="第 1 页" id="njTpoewNdy-Vw1TeN42H">
-    <mxGraphModel dx="7203" dy="6971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4471" dy="5368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,6 +285,37 @@
         </mxCell>
         <mxCell id="2ctMV_hUpTNgIbvTVt2f-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="2ctMV_hUpTNgIbvTVt2f-80" target="2ctMV_hUpTNgIbvTVt2f-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-5" value="数据来源" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-2870" width="660" height="150" as="geometry">
+            <mxRectangle x="-60" y="-2920" width="40" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-1" value="入库质检单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-5">
+          <mxGeometry x="56" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-2" value="稽查单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-5">
+          <mxGeometry x="206" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-3" value="出库质检单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-5">
+          <mxGeometry x="356" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-4" value="无业务来源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-5">
+          <mxGeometry x="506" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-9" value="生单方式" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-2720" width="660" height="150" as="geometry">
+            <mxRectangle x="-60" y="-2920" width="40" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-6" value="策略生单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-9">
+          <mxGeometry x="113" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-7" value="处置生单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-9">
+          <mxGeometry x="267" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9A9jj1l0Twum9n6Ebi-8" value="人工生单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iF9A9jj1l0Twum9n6Ebi-9">
+          <mxGeometry x="427" y="45" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
