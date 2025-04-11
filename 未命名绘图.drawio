@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="njTpoewNdy-Vw1TeN42H">
-    <mxGraphModel dx="7811" dy="6961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4804" dy="5441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-2590" width="698" height="470" as="geometry" />
+        </mxCell>
         <mxCell id="3NqC2g9XtEFXdPemZV3q-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="-3160" width="1490" height="470" as="geometry" />
         </mxCell>
@@ -579,6 +582,96 @@
               <mxPoint x="990" y="-2935" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-14" value="MCC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#FFCCCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="420" y="-2540" width="151.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-14">
+          <mxGeometry x="70" y="70" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-14">
+          <mxGeometry x="70" y="130" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-15" value="PQM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#7EA6E0,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="571.5" y="-2540" width="148.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-15">
+          <mxGeometry x="69.25" y="70" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-15">
+          <mxGeometry x="70" y="260" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-17" value="MCC策略配置定时执行" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="500.75" y="-2450" as="sourcePoint" />
+            <mxPoint x="641.5" y="-2449.999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-20" value="请求策略匹配" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="MBfUcW-5TATtlzXj_Fss-16">
+          <mxGeometry x="-0.016" relative="1" as="geometry">
+            <mxPoint x="620" y="-2400" as="sourcePoint" />
+            <mxPoint x="500" y="-2400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-21" value="返回命中策略" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="-2350" as="sourcePoint" />
+            <mxPoint x="640.75" y="-2349.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-22" value="MySQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#C3ABD0,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="868.5" y="-2540" width="148.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-22">
+          <mxGeometry x="69.25" y="190" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-22">
+          <mxGeometry x="69.25" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-24" value="Job" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="720" y="-2540" width="148.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="MBfUcW-5TATtlzXj_Fss-24">
+          <mxGeometry x="69.25" y="260" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-26" value="命中结果落表" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.75" y="-2320" as="sourcePoint" />
+            <mxPoint x="937.75" y="-2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-28" value="监管单策略生单定时任务" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="MBfUcW-5TATtlzXj_Fss-25" target="MBfUcW-5TATtlzXj_Fss-29">
+          <mxGeometry x="-0.016" relative="1" as="geometry">
+            <mxPoint x="791" y="-2260" as="sourcePoint" />
+            <mxPoint x="650" y="-2260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-30" value="获取命中策略结果集" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0022" relative="1" as="geometry">
+            <mxPoint x="650.75" y="-2210" as="sourcePoint" />
+            <mxPoint x="937.75" y="-2210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-31" value="返回命中策略结果集" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.016" relative="1" as="geometry">
+            <mxPoint x="937" y="-2190" as="sourcePoint" />
+            <mxPoint x="651.5" y="-2190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-32" value="按执行动作生成监管单" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0022" relative="1" as="geometry">
+            <mxPoint x="650.75" y="-2170" as="sourcePoint" />
+            <mxPoint x="937.75" y="-2170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBfUcW-5TATtlzXj_Fss-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;监管单策略生单&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="674" y="-2580" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
